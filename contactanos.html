@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>Autos Los Valles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo5.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="about.html">ACERCA DE</a></li>
+                    <li><a href="autos.html">AUTOS</a></li>
+                    <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contáctanos</h1> 
+</section>
+
+<!----------contactanos---------->
+
+<section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.4673863734533!2d-110.98020808799123!3d29.09187986296901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8417a0b1d037%3A0x5c5af6f0e8cabb2!2sAutos%20Los%20valles!5e0!3m2!1ses-419!2smx!4v1764809085825!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+    
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>C. Olivares 17, Villa Satelite</h5>
+                    <p>Hermosillo, Sonora, Mexico</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>662 218 8233</h5>
+                    <p>Lunes a sabado, de 8AM a 7PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-whatsapp"></i>
+                <span>
+                    <h5>+52 662 257 0891</h5>
+                    <p>Contáctate con Carlos Pesqueira</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-whatsapp"></i>
+                <span>
+                    <h5>+52 662 300 1920</h5>
+                    <p>Contáctate con Ramon Pesqueira</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-facebook"></i>
+                <span>
+                    <h5>Autos Los Valles</h5>
+                    <p>Visita nuestra página de Facebook</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>autoslosvalles@live.com.mx</h5>
+                    <p>Envíanos tu consulta por e-mail</p>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+     
+<!------ Footer ------>  
+    
+ <section class="footer">
+     <h4>Acerca de nosotros</h4>
+     <p>En Autos Los Valles ofrecemos autos seminuevos revisados, precios justos y un trato profesional.<br>Queremos que encuentres el carro ideal con total confianza.</p>
+     <div class="icons">
+        <a href="contactanos.html"><i class="fa fa-facebook"></i></a>
+        <a href="contactanos.html"><i class="fa fa-whatsapp"></i></a>
+        <a href="contactanos.html"><i class="fa fa-whatsapp"></i></a>
+        <a href="contactanos.html"><i class="fa fa-phone"></i></a>
+        <a href="contactanos.html"><i class="fa fa-envelope"></i></a>
+     </div>
+     <p>Hecho con <i class="fa fa-heart-o"></i> por Lucia Pesqueira</p>
+</section>   
+        
+<!-------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+ 
+    
+</body>
+</html>
