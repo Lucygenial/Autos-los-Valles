@@ -116,6 +116,27 @@ nav .fa{
     }
 }
 
+/*----- financiamiento -----*/
+
+.financiamiento {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F7EBD0;
+    border-radius: 15px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.financiamiento h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.financiamiento p {
+    font-size: 18px;
+    color: #888;
+}
+
 /*----- autos -----*/
 
 .autos{
@@ -434,3 +455,4 @@ h3{
     color: #555;
     font-weight: 400;
 }
+
